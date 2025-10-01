@@ -8,15 +8,7 @@ It connects multiple AI services (StarCoder, Mistral) and exposes results throug
 ---
 
 ## 🚀 Features
-
-- **Main Server (Node.js + Express)**
-  - Receives code change records via `/api/changes`
-  - Persists changes in MySQL
-  - Calls AI services:
-    - **StarCoder** → generates unit & integration test cases
-    - **Mistral** → risk analysis, security issue detection, and recommendations
-  - Forwards aggregated results to the frontend
-
+- 📡 **Watcher Service** — Detects local file changes and sends them to the main server.
 - **AI Services**
   - **StarCoder Service** (`/generate-testcases`)
     - Uses NVIDIA-hosted `starcoder2-7b`

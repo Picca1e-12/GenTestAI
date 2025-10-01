@@ -1,0 +1,22 @@
+{
+  "name": "testai",
+  "version": "1.0.0",
+  "description": "Main AI engine for the project",
+  "license": "ISC",
+  "author": "Andile Nkosi",
+  "type": "module",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.15.0",
+    "openai": "^5.22.0",
+    "winston": "^3.17.0"
+  }
+}

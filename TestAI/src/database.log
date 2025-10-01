@@ -1,0 +1,16 @@
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"code":"ECONNREFUSED","fatal":true,"level":"error","message":"Error getting connection from pool: ","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)\n    --------------------\n    at Protocol._enqueue (C:\\Users\\AndileN\\Downloads\\TestAI\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n    at Protocol.handshake (C:\\Users\\AndileN\\Downloads\\TestAI\\node_modules\\mysql\\lib\\protocol\\Protocol.js:51:23)\n    at PoolConnection.connect (C:\\Users\\AndileN\\Downloads\\TestAI\\node_modules\\mysql\\lib\\Connection.js:116:18)\n    at Pool.getConnection (C:\\Users\\AndileN\\Downloads\\TestAI\\node_modules\\mysql\\lib\\Pool.js:48:16)\n    at file:///C:/Users/AndileN/Downloads/TestAI/src/Server.js:31:6\n    at ModuleJob.run (node:internal/modules/esm/module_job:371:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:669:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}
+{"level":"info","message":"Successfully obtained a connection from the pool"}

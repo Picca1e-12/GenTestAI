@@ -1,8 +1,6 @@
 # GenTestAI
-# 🧪 AI-Powered Code Change Analysis Dashboard
-
-This project is a full-stack system that **captures code changes**, **analyzes their impact**, and provides **AI-powered recommendations** such as risk assessment, test case generation, and actionable insights.
-
+GentestAI is an **AI-powered testing companion** that watches code changes, generates structured test cases, and analyzes risk & quality in real time.  
+It connects developers, testers, and QA teams by automatically producing **unit/integration test suggestions, validation checklists, and risk assessments** via **StarCoder2** and **Mistral** models.
 It connects multiple AI services (StarCoder, Mistral) and exposes results through a **Node.js API** and a **React dashboard**.
 
 ---
